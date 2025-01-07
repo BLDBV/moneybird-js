@@ -2,11 +2,7 @@ import { HttpHandler } from "./httpHandler";
 import { Moneybird } from "./moneybird";
 import { Administration } from "./administration";
 import {
-  IAttachment,
-  IPayment,
-  IPaymentCreate,
   IEstimate,
-  IEstimateSending,
 } from "./common";
 
 export class Estimate {
