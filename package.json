@@ -19,7 +19,8 @@
     "clean": "bsm clean",
     "format": "bsm format",
     "lint": "bsm lint",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "npm run build"
   },
   "types": "lib/index.d.ts",
   "dependencies": {
