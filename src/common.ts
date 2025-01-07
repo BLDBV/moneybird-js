@@ -196,6 +196,91 @@ export interface ISalesInvoice {
   }[];
 }
 
+export interface IEstimate {
+  id: string;
+  administration_id: string;
+  contact_id: string;
+  contact: IContact;
+  contact_person_id?: string;
+  contact_person?: never;
+  invoice_id: string;
+  recurring_sales_invoice_id?: string;
+  workflow_id: string;
+  document_style_id: string;
+  identity_id: string;
+  draft_id?: string;
+  state: ISalesInvoiceState;
+  invoice_date: string;
+  due_date: string;
+  payment_condition: string;
+  payment_reference: string;
+  short_payment_reference: string;
+  reference: string;
+  language: string;
+  currency: string;
+  discount: number;
+  original_sales_invoice_id?: string;
+  paused: boolean;
+  paid_at?: string;
+  sent_at?: string;
+  created_at: string;
+  updated_at: string;
+  public_view_code: string;
+  public_view_code_expires_at: string;
+  version: number;
+  details: {
+    id: string;
+    administration_id: string;
+    tax_rate_id: string;
+    ledger_account_id: string;
+    project_id?: string;
+    product_id?: string;
+    amount: string;
+    amount_decimal: string;
+    description: string;
+    price: string;
+    period?: string;
+    row_order: number;
+    total_price_exl_tax_with_discount: string;
+    total_price_exl_tax_with_discount_base: string;
+    tax_report_reference: string[];
+    mandatory_tax_text: string;
+    created_at: string;
+    updated_at: string;
+  }[];
+  payments: IPayment[];
+  total_paid: string;
+  total_unpaid: string;
+  total_unpaid_base: string;
+  prices_are_incl_tax: string;
+  total_price_excl_tax: string;
+  total_price_excl_tax_base: string;
+  total_price_incl_tax: string;
+  total_price_incl_tax_base: string;
+  total_discount: string;
+  marked_dubious_on?: string;
+  marked_uncollectible_on?: string;
+  reminder_count: number;
+  next_reminder: string;
+  original_estimate_id?: string;
+  url: string;
+  payment_url: string;
+  custom_fields_attributes: {
+    id: string;
+    value: string;
+  }[];
+  notes: never[];
+  attachments: IAttachment[];
+  events: never[];
+  tax_totals: {
+    tax_rate_id: string;
+    taxable_amount: string;
+    taxable_amount_base: string;
+    tax_amount: string;
+    tax_amount_base: string;
+  }[];
+}
+
 export interface IAttachment {
   id: string;
   administration_id: string;

@@ -1,9 +1,11 @@
+import {Estimate} from "./estimate";
 import { Moneybird } from "./moneybird";
 import {
   IAdministration,
   IContact,
   IContactCreate,
   ICustomField,
+  IEstimate,
   ILedgerAccount,
   ISalesInvoice,
   ISalesInvoiceCreate,
@@ -254,6 +256,44 @@ export class Administration {
   }
 
   //endregion Invoices
+
+
+  //////////////////////////  ESTIMATES  //////////////////////////
+  //region Estimates
+
+  /**
+   * Returns a list of all estimates in the administration
+   */
+  public async estimates(
+    params?: PaginatedOptions
+  ): Promise<Estimate[]> {
+    const estimates = await this.HTTP.GET<IEstimate[]>("estimates", {
+      params,
+    });
+
+    return estimates.map((i) => new Estimate(this.moneybird, this, i));
+  }
+
+  /**
+   * Returns an estimate object with the given id
+   * @param id The id of the estimate
+   */
+  public async getEstimate(id: string): Promise<Estimate> {
+    const estimate = await this.HTTP.GET<IEstimate>(`estimates/${id}`);
+
+    return new Estimate(this.moneybird, this, estimate);
+  }
+
+  /**
+   * Returns an estimate object without fetching the data from the API
+   * This is useful when you already have the estimate id and want to perform actions on it
+   * @param id The id of the estimate
+   */
+  public estimate(id: string): Estimate {
+    return new Estimate(this.moneybird, this, { id } as IEstimate);
+  }
+
+  //endregion Estimates
 
   //////////////////////////  TAXES  /////////////////////////////
   //region Taxes

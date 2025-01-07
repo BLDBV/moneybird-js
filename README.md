@@ -12,6 +12,7 @@
 - Administration
 - Contact*
 - Sales invoice*
+- Estimate*
 - Tax rates
 - Custom Fields
 - Ledger accounts*
