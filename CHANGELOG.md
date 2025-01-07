@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2025-01-07)
+
+
+### Features
+
+* Start of estimates implementation ([efa1226](https://github.com/Print-one/moneybird-js/commit/efa1226b67dc701432150ec645dea4e476094554))
+
 ## [1.9.1](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2024-08-20)
 
 
