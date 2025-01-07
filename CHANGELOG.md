@@ -1,3 +1,39 @@
+# 1.0.0 (2025-01-07)
+
+
+### Bug Fixes
+
+* add attachment file name ([87e8a33](https://github.com/BLDBV/moneybird-js/commit/87e8a336ee052e308a146b251b7a639681cf448c))
+* **ci:** working github release stage ([cc45127](https://github.com/BLDBV/moneybird-js/commit/cc451271020efe5473f8d4c18b0d7af00e5ca075))
+* debugger show correct ms ([a703512](https://github.com/BLDBV/moneybird-js/commit/a703512e723bccbab7ac51bec69429b3e283d6c2))
+* export Adminstration, Contact and SalesInvoice in index ([f15841e](https://github.com/BLDBV/moneybird-js/commit/f15841ec5acde11b448efe0354b288bc40457925))
+* export all common types ([65fe2ad](https://github.com/BLDBV/moneybird-js/commit/65fe2aded885a0a8e097fff41470183a04d57075))
+* export TimeoutError ([d1f0e08](https://github.com/BLDBV/moneybird-js/commit/d1f0e08b8df5c891259af3b0daebc7794371bdd3))
+* hide debug logs ([145b766](https://github.com/BLDBV/moneybird-js/commit/145b766333ec44ad507a52f902c4eaf164b15395))
+* **npm:** enable npm publish ([d2fd7d1](https://github.com/BLDBV/moneybird-js/commit/d2fd7d13f8a0c6f6e00cce1cdcf3f8104be0b5d8))
+* POST, PATCH, DELETE logging breaking calls ([e10e5fc](https://github.com/BLDBV/moneybird-js/commit/e10e5fce975627c3d950117c827ea4c11f7ad3c7))
+* return ArrayBuffer instead of string ([9b3f39d](https://github.com/BLDBV/moneybird-js/commit/9b3f39d9021c5232dbdde747c6e8b39bce36fea9))
+* semantic-release ([55dbd7f](https://github.com/BLDBV/moneybird-js/commit/55dbd7fb8f13158ebf28e7a4c4b5e406334ad3b7))
+* **types:** make amount optional in invoice details_attributes ([8227275](https://github.com/BLDBV/moneybird-js/commit/8227275c0c9466f86d5dd467d7fc2e90d76ea15a))
+
+
+### Features
+
+* administration api ([70b35f5](https://github.com/BLDBV/moneybird-js/commit/70b35f52ae599898ab1c2df93aef77728d3e1feb))
+* change context http calls to different file ([371a99b](https://github.com/BLDBV/moneybird-js/commit/371a99bfae3d1652738cf3538a3467a0f1955e78))
+* contacts api ([14298d8](https://github.com/BLDBV/moneybird-js/commit/14298d8af8ef74e29e75abdf769a5e22bb2e7983))
+* custom fields endpoints ([67bd74f](https://github.com/BLDBV/moneybird-js/commit/67bd74f27b962d31f6dee939a8edcdb066077fd0))
+* invoice attachments ([9223c39](https://github.com/BLDBV/moneybird-js/commit/9223c39ef8f92b89f1964c7fdbe2cb52abed57ce))
+* payments endpoints added ([5e13ef7](https://github.com/BLDBV/moneybird-js/commit/5e13ef74c84b2182bbf7b2ef9bcc86f4f1e57985))
+* payments types added ([2ee79a0](https://github.com/BLDBV/moneybird-js/commit/2ee79a0c299889276d074bace07aa573ecbcca98))
+* sales invoices added ([addcf26](https://github.com/BLDBV/moneybird-js/commit/addcf262d4ff37af50d126a08cd8bdbc748c63a0))
+* send invoice endpoint added. Thanks @SimonsThijs ([#2](https://github.com/BLDBV/moneybird-js/issues/2)) ([00a3de7](https://github.com/BLDBV/moneybird-js/commit/00a3de729b15e880ef71d7b5b8bd3685d1d85151))
+* some ledger account endpoints ([ab162fe](https://github.com/BLDBV/moneybird-js/commit/ab162fe634e9da4237ac8f071d24b4989fbb6748))
+* taxes endpoints ([3eee0d2](https://github.com/BLDBV/moneybird-js/commit/3eee0d28c744515833ea70025428393d0dcb2339))
+* throw an timeout error for when an timeout is happened ([eea9212](https://github.com/BLDBV/moneybird-js/commit/eea9212aaf9038e4f384d694b4db9bad169f602d))
+* updated docs ([70190b3](https://github.com/BLDBV/moneybird-js/commit/70190b36caea2e64a84468858dd256d2e6398325))
+* workflows endpoints added ([e3bf931](https://github.com/BLDBV/moneybird-js/commit/e3bf931f9012154b477a6d4ae5c849a6356e6750))
+
 ## [1.9.1](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2024-08-20)
 
 
