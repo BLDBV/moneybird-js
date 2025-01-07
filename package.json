@@ -20,7 +20,7 @@
     "format": "bsm format",
     "lint": "bsm lint",
     "semantic-release": "semantic-release",
-    "prepare": "npm run build"
+    "install": "npm run build"
   },
   "types": "lib/index.d.ts",
   "dependencies": {
