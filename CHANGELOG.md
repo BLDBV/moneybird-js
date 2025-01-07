@@ -1,3 +1,9 @@
+## [1.9.4](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2025-01-07)
+
+
+* Start of estimates implementation and setting release tests for fork ([3b5ae8e](https://github.com/BLDBV/moneybird-js/commit/3b5ae8e1b1c11efd177427f5b227b18bfcf6b865)) 
+
+
 ## [1.9.3](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2025-01-07)
 
 
