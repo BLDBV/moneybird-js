@@ -7,7 +7,7 @@
   "homepage": "https://github.com/Print-one/moneybird-js#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Print-one/moneybird-js.git"
+    "url": "git+https://github.com/BLDBV/moneybird-js.git"
   },
   "bugs": "https://github.com/Print-one/moneybird-js/issues",
   "main": "lib/index.js",
