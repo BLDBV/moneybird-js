@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/BLDBV/moneybird-js/compare/v1.0.0...v1.1.0) (2025-01-07)
+
+
+### Features
+
+* Estimates ([7113c54](https://github.com/BLDBV/moneybird-js/commit/7113c54f1899fef3dfb83d0bb65ae2db2be0caa9))
+
 ## [1.9.4](https://github.com/Print-one/moneybird-js/compare/v1.9.0...v1.9.1) (2025-01-07)
 
 
